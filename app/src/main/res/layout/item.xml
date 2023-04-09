@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/iv_car"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_launcher_background"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="40dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMW" />
+
+</LinearLayout>
